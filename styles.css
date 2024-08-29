@@ -9,8 +9,8 @@ body {
 .wrapper {
     width: 100%; /* Allows the wrapper to adjust based on padding */
     max-width: 800px; /* Limits the content width */
-    margin: 20px auto; /* Centers the wrapper and adds vertical margin */
-    padding: 40px 150px; /* Substantial padding to create visible margins within the wrapper */
+    margin: 50px auto; /* Centers the wrapper and adds vertical margin */
+    padding: 150px 150px; /* Substantial padding to create visible margins within the wrapper */
     background-color: #fff; /* White background for the content area */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adds subtle shadow for depth */
     box-sizing: border-box; /* Includes padding in the width calculation */
