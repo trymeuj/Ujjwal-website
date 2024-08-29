@@ -1,55 +1,54 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif; /* Change to your preferred font, such as 'Helvetica' or 'Georgia' */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light grey background for ease of reading */
+    background-color: #fff; /* White background */
     color: #333; /* Dark grey text color for contrast */
+    line-height: 1.8; /* Enhanced line spacing for readability */
 }
 
 .wrapper {
-    width: 100%; /* Allows the wrapper to adjust based on padding */
-    max-width: 800px; /* Limits the content width */
-    margin: 50px auto; /* Centers the wrapper and adds vertical margin */
-    padding: 150px 150px; /* Substantial padding to create visible margins within the wrapper */
-    background-color: #fff; /* White background for the content area */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adds subtle shadow for depth */
-    box-sizing: border-box; /* Includes padding in the width calculation */
+    width: 100%; /* Full width to utilize the entire viewport width */
+    max-width: 640px; /* Narrow width for better readability */
+    margin: 40px auto; /* Top and bottom margin with auto for horizontal centering */
+    padding: 20px; /* Adequate padding around the content */
+    background-color: #fff; /* Maintains a white background inside the wrapper */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Subtle shadow for a slight depth effect */
 }
 
 header, footer {
-    text-align: center; /* Centers text in the header and footer */
-    padding: 10px 0; /* Minimal padding for header and footer */
+    text-align: center; /* Center alignment for header and footer text */
+    padding: 10px 0; /* Padding to separate the content vertically */
+    color: #666; /* Slightly lighter grey for subtext */
 }
 
 main h1 {
-    margin-top: 0; /* Adjust as necessary to suit your design needs */
+    font-size: 2em; /* Larger font size for headings */
+    margin: 20px 0 10px; /* Margin around the heading for spacing */
+    color: #333; /* Dark grey color for headline */
 }
 
 nav ul {
-    list-style-type: none; /* Removes bullet points */
-    padding: 0; /* Removes padding */
-    text-align: center; /* Centers the navigation */
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes padding to align with the edges */
+    text-align: center; /* Center aligns the navigation links */
 }
 
 nav ul li {
-    display: inline; /* Lists items horizontally */
-    margin-right: 10px; /* Right margin for spacing between items */
+    display: inline; /* Inline display to place links in a row */
+    margin-right: 15px; /* Right margin for spacing between menu items */
 }
 
 nav ul li a {
-    text-decoration: none; /* No underline for links */
-    color: #1a0dab; /* Blue color for links */
+    text-decoration: none; /* Removes underline from links */
+    color: #1a0dab; /* Blue color for links to stand out */
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover for better accessibility */
-}
-
-main {
-    line-height: 1.6; /* Improves readability */
+    text-decoration: underline; /* Adds underline on hover for visual feedback */
 }
 
 footer p {
-    font-size: 0.9em; /* Smaller font for footer */
-    color: #666; /* Lighter grey for less emphasis */
+    font-size: 0.9em; /* Smaller font size for footer text */
+    color: #aaa; /* Light grey color for less emphasis on footer */
 }
