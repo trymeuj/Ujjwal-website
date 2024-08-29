@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background for ease of reading */
+    color: #333; /* Dark grey text color for contrast */
+}
+
+.wrapper {
+    width: 80%; /* Sets the width of the content area */
+    max-width: 800px; /* Maximum width to avoid overly wide paragraphs */
+    margin: 20px auto; /* Centers the wrapper and adds vertical margin */
+    background-color: #fff; /* White background for the content area */
+    padding: 20px; /* Padding inside the content area */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+header, footer {
+    text-align: center; /* Centers text in the header and footer */
+    padding: 10px 0; /* Padding for spacing */
+}
+
+main h1 {
+    margin-top: 0; /* Removes top margin from the first element */
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0; /* Removes padding */
+}
+
+nav ul li {
+    display: inline; /* Lists items in a row */
+    margin-right: 10px; /* Right margin for spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: #1a0dab; /* Sets link color */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Adds underline on hover for accessibility */
+}
+
+main {
+    line-height: 1.6; /* Increases line spacing for readability */
+}
+
+footer p {
+    font-size: 0.9em; /* Slightly smaller font size for the footer */
+    color: #666; /* Lighter text color for the footer */
+}
