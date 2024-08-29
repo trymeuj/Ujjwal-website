@@ -7,17 +7,17 @@ body {
 }
 
 .wrapper {
-    width: 80%; /* Sets the width of the content area */
-    max-width: 800px; /* Maximum width to avoid overly wide paragraphs */
-    margin: 20px auto; /* Centers the wrapper and adds vertical margin */
+    width: 80%; /* Controls the width of the content area */
+    max-width: 800px; /* Maximum width to maintain optimal line length for readability */
+    margin: 20px auto; /* Centers the wrapper and adds vertical and horizontal margins */
+    padding: 100px; /* Padding inside the content area for additional spacing */
     background-color: #fff; /* White background for the content area */
-    padding: 20px; /* Padding inside the content area */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow to lift the content area visually */
 }
 
 header, footer {
     text-align: center; /* Centers text in the header and footer */
-    padding: 10px 0; /* Padding for spacing */
+    padding: 10px 0; /* Adds padding for spacing */
 }
 
 main h1 {
@@ -26,28 +26,28 @@ main h1 {
 
 nav ul {
     list-style-type: none; /* Removes bullet points from the list */
-    padding: 0; /* Removes padding */
+    padding: 0; /* Removes padding, helping align the list properly */
 }
 
 nav ul li {
-    display: inline; /* Lists items in a row */
-    margin-right: 10px; /* Right margin for spacing between menu items */
+    display: inline; /* Displays list items in a row */
+    margin-right: 10px; /* Adds right margin for spacing between menu items */
 }
 
 nav ul li a {
     text-decoration: none; /* Removes underline from links */
-    color: #1a0dab; /* Sets link color */
+    color: #1a0dab; /* Link color */
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Adds underline on hover for accessibility */
+    text-decoration: underline; /* Adds underline on hover for better accessibility */
 }
 
 main {
-    line-height: 1.6; /* Increases line spacing for readability */
+    line-height: 1.6; /* Improves readability by increasing line spacing */
 }
 
 footer p {
-    font-size: 0.9em; /* Slightly smaller font size for the footer */
+    font-size: 0.9em; /* Slightly smaller font size for less important footer text */
     color: #666; /* Lighter text color for the footer */
 }
